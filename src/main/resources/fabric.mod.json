@@ -4,16 +4,17 @@
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Station API port of Better Than Wolves.",
   "authors": [
-    "Me!"
+    "Atilist (Station API port)",
+    "FlowerChild (original mod)"
   ],
   "contact": {
     "homepage": "https://glass-launcher.net/",
     "sources": "https://github.com/calmilamsy/BIN-fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "CC-BY-4.0",
   "icon": "assets/examplemod/icon.png",
 
   "environment": "*",
