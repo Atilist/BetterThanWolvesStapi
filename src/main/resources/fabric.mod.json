@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "betterthanwolves",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Better Than Wolves",
   "description": "Station API port of Better Than Wolves.",
   "authors": [
     "Atilist (Station API port)",
@@ -15,28 +15,28 @@
   },
 
   "license": "CC-BY-4.0",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/betterthanwolves/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "net.glasslauncher.example.events.init.AchievementListener",
-      "net.glasslauncher.example.events.init.BlockListener",
-      "net.glasslauncher.example.events.init.ItemListener",
-      "net.glasslauncher.example.events.init.PlayerHandlerListener",
-      "net.glasslauncher.example.events.init.RecipeListener"
+      "net.atilist.betterthanwolves.events.init.AchievementListener",
+      "net.atilist.betterthanwolves.events.init.BlockListener",
+      "net.atilist.betterthanwolves.events.init.ItemListener",
+      "net.atilist.betterthanwolves.events.init.PlayerHandlerListener",
+      "net.atilist.betterthanwolves.events.init.RecipeListener"
     ],
     "stationapi:event_bus_client": [
-      "net.glasslauncher.example.events.init.KeyBindingListener",
-      "net.glasslauncher.example.events.init.TextureListener",
-      "net.glasslauncher.example.events.ingame.KeyPressedListener"
+      "net.atilist.betterthanwolves.events.init.KeyBindingListener",
+      "net.atilist.betterthanwolves.events.init.TextureListener",
+      "net.atilist.betterthanwolves.events.ingame.KeyPressedListener"
     ],
     "stationapi:event_bus_server": [
-      "net.glasslauncher.example.events.init.ServerInitListener"
+      "net.atilist.betterthanwolves.events.init.ServerInitListener"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "betterthanwolves.mixins.json"
   ],
 
   "depends": {
